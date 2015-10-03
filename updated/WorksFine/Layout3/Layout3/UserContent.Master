@@ -1,0 +1,204 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserContent.master.cs" Inherits="Layout3.UserContent" %>
+
+<!DOCTYPE html>
+
+<html><head>
+   <title>www.mbstu.ac.bd</title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 91px;
+            text-align: right;
+        }
+        .auto-style3 {
+            width: 259px;
+        }
+        .auto-style3 {
+            width: 259px;
+        }
+        .auto-style5 {
+            text-align:start;
+        }
+    </style>
+   <link type="image/x-icon" rel="icon" href="http://www.mbstu.ac.bd/ku-web/image/favicon2.png">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <link href="Content/Site.css" rel="stylesheet" type="text/css" media="screen">
+   <script type="text/javascript" src="Content/jquery-1.js"></script>
+   <script type="text/javascript" src="Content/jquery.js"></script>
+   <script type="text/javascript" src="Content/jquery_002.js"></script>
+   <script type="text/javascript">$(window).load(function () { $('#slider').nivoSlider({ effect: 'random', animSpeed: 500, pauseTime: 8000 }); });</script>
+   <!--[if lt IE 9]><style>.content-tab{height: auto;margin: 0;}.content-tab div {position: relative;}</style><![endif]-->
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div id="wrapper">
+<div id="header">
+   <div class="container" valign="top">
+      <img src="Content/header.png" style="width: 670px">
+	   <div class="header-menu">
+         <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Index</a></li>
+            <li><a href="http://webmail.mbstu.ac.bd/">Webmail</a></li>
+         </ul>
+      </div>
+        <!-- <input placeholder="Search here..." required="" type="text">--
+        <button type="submit">Search</button>-->>
+   </div>
+</div><div class="menu-container">
+<ul id="menu">
+<li><a href="Home.aspx">Home</a></li>
+<li><a href="">About us</a>
+<ul>
+<li><a href="">History</a></li>
+<li><a href="">Mission</a></li>
+<li><a href="">Message From VC</a></li>
+<li><a href="">Senate</a></li>
+
+<li><a href="">Academic Council</a></li>
+<li><a href="">Maps &amp; Directions</a></li>
+<li><a href="">Gallery</a> </li></ul></li>
+<li><a href="">Admission</a>
+<ul>
+<li><a href="OnlineAdmission.aspx">HSC Admision Info</a></li>
+<li><a href="">Graduate</a></li></ul></li>
+<li><a href="">Schools</a>
+<ul>
+<li><a href="">SCIENCE, ENGINEERING AND TECHNOLOGY SCHOOL</a>
+<ul>
+<li><a href="">Architecture</a></li>
+<li><a href="http://www.mbstu.ac.bd/">Computer Science and Engineering</a></li>
+>
+<li><a href="">Electronics and Communication Engineering</a></li>
+<li><a href="">Mathematics</a></li>
+<li><a href="">Chemistry</a></li>
+<li><a href="">Physics</a></li>
+<li><a href="">Statistics</a></li></ul></li>
+<li><a href="">LIFE SCIENCE SCHOOL</a>
+<ul>
+
+
+<li><a href="">Biotechnology and Genetic Engineering</a></li>
+
+
+<li><a href="">Soil Science</a></li></ul></li>
+<li><a href="">MANAGEMENT AND BUSINESS ADMINISTRATION SCHOOL</a>
+<ul>
+<li><a href="">Business Administration</a></li></ul></li>
+<li><a href="">ARTS AND HUMANITIES SCHOOL</a>
+<ul>
+<li><a href="">English</a></li>
+<li><a href="">Bengali Language and Literature</a></li></ul></li>
+<li><a href="">SOCIAL SCIENCE SCHOOL</a>
+<ul>
+<li><a href="">Economics</a></li>
+<li><a href="">Sociology</a></li>
+<li><a href="">Development Studies</a></li></ul></li></ul></li>
+<li>&nbsp;<ul>
+<li><a href="">Institute of Fine Arts</a></li>
+
+<li><a href="">Offices</a>
+<ul>
+<li><a href="">Controller of Examination</a> </li>
+
+<li><a href="">Facilities</a>
+<ul>
+<li><a href="">Central Library</a> </li>
+<li><a href="">Medical Center</a></li>
+<li><a href="">Halls of Residence</a>
+<ul>
+
+<li><a href="">Guest House</a></li>
+<li><a href="">Cafeteria</a></li>
+<li><a href="">Wi-Fi</a></li></ul></li>
+<li><a href="">Resources</a>
+<ul>
+<li><a href="">Centres and Cells</a></li>
+<li><a href="">Journals</a></li>
+<li><a href="http://">knimbus</a></li>
+<li><a href="http://">ebrary</a></li></ul></li></ul>
+    <li></li>
+        <a href="">Institutes</a></div>
+   
+
+<div class="body-template">
+    
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</div>
+
+<br>
+
+<br>
+</div>
+<!-- FOOTER   -->
+<div class="footer">
+   <div class="footer-wrapper">
+      <div class="footer-1">
+        <div style="margin-top:15px;width: 50%;float: left;">
+            <div class="social" style="margin-left: 7px;"><a href="http://www.facebook.com/waliul.cse"><img src="Content/fb.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook</a></div>
+      	   <div class="social" style="margin-left: 7px;"><a href="#"><img src="Content/t.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitter</a></div>
+         </div>
+         <div style="margin-top:15px;width: 50%; float: right;">
+           <div class="social"><a href="#"><img src="Content/yt.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Youtube</a></div>
+      	  <div class="social"><a href="#"><img src="Content/gp.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Google Plus</a></div>
+         </div>
+      </div>
+      <div class="footer-2">
+        <p>contact us</p>
+         <hr>
+         <div class="contact-container">
+            <img src="Content/telephone-icon.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone
+         </div>
+            <div class="contact-info">
+               <ul>
+                  <li>VC: +880-(0)41-721</li>
+                  <li>Registrar: +880-(0)41-720</li>
+               </ul>
+            </div>
+         <div class="contact-container"><img src="Content/email-icon.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email</div>
+            <div class="contact-info">
+               <ul>
+                  <li>info@mbstu.ac.bd</li>
+                  <li>admission@mbstu.ac.bd</li>
+               </ul>
+            </div>
+         <div class="contact-container"><img src="Content/add-icon.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address</div>
+            <div class="contact-info">
+               <ul>
+                  <li>MBSTU</li>
+                  <li>Tangail-1902, Bangladesh.</li>
+               </ul>
+            </div>
+      </div>
+      <div class="footer-3">
+         <p>links</p>
+         <hr>
+         <ul>
+            <li><a target="_blank" href="#">Director Students' Affairs</a></li>
+            <li><a target="_blank" href="http://www.ugc.gov.bd/">University Grants Commission (UGC)</a></li>
+            <li><a target="_blank" href="http://www.moedu.gov.bd/">Ministry of Education</a></li>
+            <li></li>
+            <li><a target="_blank" href="https://site.ebrary.com/lib/"> University</a></li>
+         </ul>
+      </div>
+   </div>
+</div>
+<div style="width:100%; background-color: #003A6A;">
+    <div style="text-align:center;clear:both;margin: 0 auto 435 auto; padding: 10px 0;  width: 920px;font-size:12px;color: #000000;">
+      <ul id="menu-footer">
+         <li><a class="first" href="#">Home</a></li>
+         <li><a href="#">About Us</a></li>
+         <li><a href="#">Offices</a></li>
+         <li><a href="#">Facilities</a></li>
+         <li><a class="last" href="#">Resources</a></li>
+      </ul>
+      <br>
+      © 2012 MBSTU All rights Reserved.    </div>
+</div>
+
+
+    </form>
+</body></html>
